@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html><html><head>
+<base href="file:///storage/Backup/Proyectos/curso_ixperience/template.html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"><title>Data Visualization Assignment</title>
+<link href="http://strapdownjs.com/v/0.2/themes/cerulean.min.css" rel="stylesheet"><link href="http://strapdownjs.com/v/0.2/strapdown.css" rel="stylesheet"><link href="http://strapdownjs.com/v/0.2/themes/bootstrap-responsive.min.css" rel="stylesheet">
+<link rel="icon" href="">
+
+<script id="savepage-pageloader" type="application/javascript">
+savepage_PageLoader(5);
+"use strict";function savepage_PageLoader(maxframedepth){var resourceMimeType=new Array();var resourceBase64Data=new Array();var resourceBlobUrl=new Array();window.addEventListener("DOMContentLoaded",function(a){createBlobURLs();replaceReferences(0,document.documentElement)},false);function createBlobURLs(){var i,j,binaryString,blobData;var a=new Array();for(i=0;i<resourceMimeType.length;i++){if(typeof resourceMimeType[i]!="undefined"){binaryString=atob(resourceBase64Data[i]);resourceBase64Data[i]="";a.length=0;for(j=0;j<binaryString.length;j++){a[j]=binaryString.charCodeAt(j)}blobData=new Blob([new Uint8Array(a)],{type:resourceMimeType[i]});resourceMimeType[i]="";resourceBlobUrl[i]=window.URL.createObjectURL(blobData)}}}function replaceReferences(a,b){var i,regex1,regex2,csstext,blobData;regex1=/url\(data:[^;]*;resource=(\d+);base64,\)/gi;regex2=/data:[^;]*;resource=(\d+);base64,/i;if(b.hasAttribute("style")){csstext=b.style.cssText;b.style.cssText=csstext.replace(regex1,replaceCSSRef)}if(b.localName=="style"){csstext=b.textContent;b.textContent=csstext.replace(regex1,replaceCSSRef)}else if(b.localName=="link"&&(b.rel.toLowerCase()=="icon"||b.rel.toLowerCase()=="shortcut icon")){if(b.href!="")b.href=b.href.replace(regex2,replaceRef)}else if(b.localName=="body"){if(b.background!="")b.background=b.background.replace(regex2,replaceRef)}else if(b.localName=="img"){if(b.src!="")b.src=b.src.replace(regex2,replaceRef)}else if(b.localName=="input"&&b.type.toLowerCase()=="image"){if(b.src!="")b.src=b.src.replace(regex2,replaceRef)}else if(b.localName=="audio"){if(b.src!=""){b.src=b.src.replace(regex2,replaceRef);b.load()}}else if(b.localName=="video"){if(b.src!=""){b.src=b.src.replace(regex2,replaceRef);b.load()}if(b.poster!="")b.poster=b.poster.replace(regex2,replaceRef)}else if(b.localName=="source"){if(b.src!=""){b.src=b.src.replace(regex2,replaceRef);b.parentElement.load()}}else if(b.localName=="track"){if(b.src!="")b.src=b.src.replace(regex2,replaceRef)}else if(b.localName=="object"){if(b.data!="")b.data=b.data.replace(regex2,replaceRef)}else if(b.localName=="embed"){if(b.src!="")b.src=b.src.replace(regex2,replaceRef)}if(b.localName=="iframe"||b.localName=="frame"){if(a<maxframedepth){if(b.hasAttribute("data-savepage-sameorigin")){blobData=new Blob([decodeURIComponent(b.src.substr(29))],{type:"text/html;charset=utf-8"});b.onload=function(){try{if(b.contentDocument.documentElement!=null){replaceReferences(a+1,b.contentDocument.documentElement)}}catch(e){}};b.src=window.URL.createObjectURL(blobData)}}}else{for(i=0;i<b.children.length;i++)if(b.children[i]!=null)replaceReferences(a,b.children[i])}}function replaceCSSRef(a,b,c,d){return"url("+resourceBlobUrl[+b]+")"}function replaceRef(a,b,c,d){return resourceBlobUrl[+b]}
+}
+</script>
+<meta name="savepage-url" content="file:///storage/Backup/Proyectos/curso_ixperience/template.html">
+<meta name="savepage-title" content="Data Visualization Assignment">
+<meta name="savepage-date" content="Thu Jun 28 2018 12:05:55 GMT+0200 (CEST)">
+<meta name="savepage-state" content="Standard Items; Used page loader; Retained cross-origin frames; Removed unsaved URLs; Max frame depth = 5; Max resource size = 50MB; Max resource time = 10s;">
+<meta name="savepage-version" content="11.0">
+<meta name="savepage-comments" content="">
+</head><body style=""><div class="navbar navbar-fixed-top"><div class="navbar-inner"> <div class="container"> <div id="headline" class="brand">Data Visualization Assignment</div> </div> </div></div><div class="container" id="content"><h1>Data Visualization Assignment</h1>
+<p>This week's assignment is focused on Data Visualization, and as such, it is the most open ended.</p>
+<p>Your assignment is, simply put, to find a dataset you like, and make a compelling data visualization.</p>
+<p>You have different options:</p>
+<ul>
+<li>You can create a folium map that tells a story (and save it to html)</li>
+<li>You can create a dashboard (using jupyter dashboards and ipywidget for example)</li>
+<li>You can create a jupyter notebook where you tell a story using data visualization</li>
+<li>You can check <a href="https://plot.ly/products/dash/">dash</a> to build a very beautiful dashboard relatively easily.</li>
+<li>You can check the data visualization bonus class to find alternative plotting libraries. Each one has its own set of features (faster/slower, interactive/static, basic/complex)</li>
+</ul>
+<p>Be creative! Find a dataset that is inspiring to you and find a way to inspire other people by using data visualization techniques!</p>
+</div>
+<script data-savepage-src="http://strapdownjs.com/v/0.2/strapdown.js" src=""></script>
+
+</body></html>
